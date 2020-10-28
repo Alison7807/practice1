@@ -1,24 +1,8 @@
-body{
-    background-image: linear-gradient(to bottom right, #ffd000, #90fff9);
-    padding: 20px 30px;
-}
-img {
-    border-radius: 10px;
-}
-h2 {
-    color: blueviolet;
-    text-align: center;
-    text-shadow: 2px 2px 5px #ff00c8;
-    font-weight: 1000;
-    font-size: 50px;
-}
-p {
-    color: #0033db;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    
-}
+
+
+
+
+
 a:link {
     color: #14b6b6;
 }
@@ -30,4 +14,100 @@ a:hover {
 }
 a:active {
     color: #26fd38;
+}
+@media  screen and (min-width: 320px){
+    body{
+        background-image: linear-gradient(to bottom right, #ffd000, #90fff9);
+        padding: 20px 30px;
+        
+        
+    }
+    h2 {
+        color: blueviolet;
+        text-align: center;
+        text-shadow: 2px 2px 5px #ff00c8;
+        font-weight: 1000;
+        font-size: 40px;
+    }
+    p {
+        color: #0033db;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        
+    }
+    a {
+        font-size: 15px;
+    }
+    img {
+        border-radius: 10px;
+    }
+}
+@media  screen and (max-width: 600px){
+    body{
+            background-image: linear-gradient(to bottom right, #7068e4, #ff4e4e);
+            padding: 20px 30px;
+            
+    }
+    h2 {
+        color: rgb(252, 255, 70);
+        text-align: center;
+        text-shadow: 2px 2px 5px #37ffe4;
+        font-weight: 1000;
+        font-size: 25px;
+    }
+    p {
+        color: #0033db;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        
+    }
+    a {
+        font-size: 15px;
+    }
+    img {
+        border-radius: 10px;
+        width: 200px;
+        height: 150px;
+        
+    }
+}
+
+.box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    transition: 1s width ease 0s,1s background-color ease 1s;
+    transform: rotate(15deg);
+}
+.box:hover {
+    width: 400px;
+    background-color: floralwhite;
+}
+@keyframes myanimation{
+    0% {background-color: forestgreen; left: 1200px; top: 500px;}
+    25% {background-color: #33beff; left: 1250px; top: 650px;}
+    50% {background-color: #ffec40; left: 1100px; top: 500px;}
+    75% {background-color: #ff5e5e; left: 1300px; top: 700px;}
+    100% {background-color: #ff5bd6; left: 1150px; top: 750px;}
+   }
+
+.box2 {
+ width: 100px;
+   height: 100px;  
+   background-color: #ff5050;
+   border: 1px dotted black; 
+   text-align: center;  
+   line-height: 200px; 
+   position: absolute;  
+   animation-name: myanimation;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-iteration-count: infinite;
+}
+.box2:hover{
+ animation-play-state: paused;
 }
