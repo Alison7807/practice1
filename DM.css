@@ -85,6 +85,7 @@ a:active {
 .box:hover {
     width: 400px;
     background-color: floralwhite;
+    
 }
 @keyframes myanimation{
     0% {background-color: forestgreen; left: 1200px; top: 500px;}
