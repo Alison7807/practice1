@@ -1,39 +1,120 @@
 <!doctype html>
 <html lang="zh-TW">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="content/bootstrap.min.css">
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
+  <link rel="stylesheet" href="content/bootstrap.min.css">
 
-<header>
-  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">這是navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse1"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">0w0 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">1112</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">1113</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropup1" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false"> </a>
+            <div class="dropdown-menu" aria-labelledby="dropup1">
+              <a class="dropdown-item" href="#">A</a>
+              <a class="dropdown-item" href="#">B</a>
+              <a class="dropdown-item" href="#">C</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <header class="container flex-column flex-md-row align-items-md-center p-5 bg-light">
+
+  </header>
+  <div class="container-fluid text-center text-white" style="font-size: 30px;">
+
+
+
+
+    <div class="row">
+
+      <div class=" col-sm " style="background-color: orange; height: 200px;">
+        h
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6  col-lg-4" style="background-color: #ff2ecb; height: 200px;">
+        C
+      </div>
+      <div class="col-sm-6 order-sm-first col-lg-4" style="background-color: #30ec82; height: 200px;">
+        SL
+      </div>
+
+      <div class="  col-lg-4 col order-last" style="background-color: #449bff; height: 200px;">
+        SR
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm " style="background-color: darkorchid; height: 200px;">
+        f
+      </div>
+    </div>
+  </div>
+
+  <p h1>
+    0<br>
+    1<br>
+    2<br>
+    3<br>
+    4<br>
+    5<br>
+    6<br>
+  </p>
+  <div class="container flex-column flex-md-row align-items-md-center p-5 bg-light">
+
+  </div>
+  <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
     <a class="navbar-brand" href="#">這是navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse1">
+    <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">0w0 <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">1112</a>
+          <a class="nav-link" href="#">0001</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">1113</a>
+          <a class="nav-link" href="#">0002</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropup1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </a>
-          <div class="dropdown-menu" aria-labelledby="dropup1">
+        <li class="nav-item dropup">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"> </a>
+          <div class="dropdown-menu" aria-labelledby="dropdown10">
             <a class="dropdown-item" href="#">A</a>
             <a class="dropdown-item" href="#">B</a>
             <a class="dropdown-item" href="#">C</a>
@@ -42,93 +123,23 @@
       </ul>
     </div>
   </nav>
-</header>
-
-<header class="container flex-column flex-md-row align-items-md-center p-5 bg-light">
-  
-</header>
-    <div class="container-fluid text-center text-white" style="font-size: 30px;" >
-      
-        
-        
-      
-      <div class="row">
-          
-          <div class=" col-sm " style="background-color: orange; height: 200px;">
-            h
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-6  col-lg-4" style="background-color: #ff2ecb; height: 200px;"> 
-            C
-          </div>
-          <div class="col-sm-6 order-sm-first col-lg-4" style="background-color: #30ec82; height: 200px;">
-            SL
-          </div>
-         
-          <div class="  col-lg-4 col order-last" style="background-color: #449bff; height: 200px;">
-            SR
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm " style="background-color: darkorchid; height: 200px;">
-            f
-          </div>
-        </div>
-</div>
-
-      <p h1>
-        0<br>
-        1<br>
-        2<br>
-        3<br>
-        4<br>
-        5<br>
-        6<br>
-      </p>
-<div class="container flex-column flex-md-row align-items-md-center p-5 bg-light">
-
-</div>
-      <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">這是navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">0001</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">0002</a>
-            </li>
-            <li class="nav-item dropup">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </a>
-              <div class="dropdown-menu" aria-labelledby="dropdown10">
-                <a class="dropdown-item" href="#">A</a>
-                <a class="dropdown-item" href="#">B</a>
-                <a class="dropdown-item" href="#">C</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
    -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="script/bootstrap.js" ></script>
-  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="script/bootstrap.js"></script>
+
 </body>
+
 </html>
