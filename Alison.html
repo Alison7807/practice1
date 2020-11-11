@@ -1,23 +1,25 @@
 <!DOCTYPE html> <!-- 告訴瀏覽器這是html5的檔 -->
 <html lang="zh-TW">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="content/bootstrap.min.css">
-    <title>佩蓉的個人網頁</title>
-    <style>
-      body {
-    position: relative; 
-  }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="content/bootstrap.css">
+  <link rel="stylesheet" href="content/bootstrap.min.css">
+  <link rel="stylesheet" href="Alison.css">
+  
+  <title>佩蓉的個人網頁</title>
+  
 </head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="60">
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="60">  <!-- 導航 -->
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
       <a class="navbar-brand" href="#">個人網站</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -35,69 +37,159 @@
             <a class="nav-link " href="#Scrollspy4">興趣</a>
           </li>
         </ul>
-       
+
       </div>
     </nav>
-    <div style="background-color: cornflowerblue; height: 56px;"> </div>
     
+
   </header>
-<main style="background-image: url(file:///C:/Users/peggy/Downloads/%E2%80%94Pngtree%E2%80%94starry%20nebula%20blue%20pink%20minimalist_937305.png); 
+
+  <main style="background-image: url(file:///C:/Users/peggy/Downloads/%E2%80%94Pngtree%E2%80%94starry%20nebula%20blue%20pink%20minimalist_937305.png); 
 background-size: cover;
 background-repeat: no-repeat;
-width: 100%;" >
+width: 100%;">
+<div style="background-color: rgba( 0, 0, 0, 0); height: 70px;"> </div>
+    <div class="container text-white">
+      <div class="row">
 
-    <div class="container" > 
-      <div class="row" >
-
-        <div class="col-sm" id="Scrollspy1" style="background-color: #ffa231; height: 300px; padding-top: 55px;">
-         <h3>關於我</h3>
-        <p> 姓名: 江佩蓉/Alison</p>
+        <div class="col-sm" id="Scrollspy1"
+          style="background-color: rgba(255, 175, 175, 0.3); height: 500px; padding-top: 50px;">
+          <p> </p>
+          <h2>關於我</h2>
+          <p> </p>
+          <p> 姓名: 江佩蓉/Alison</p>
         </div>
 
       </div>
 
       <div class="row">
-        
-        <div class="col-sm" id="Scrollspy2" style="background-color: violet; height: 300px; padding-top: 50px;"> 
+
+        <div class="col-sm" id="Scrollspy2"
+          style="background-color: rgba(0, 0, 0, 0.2); height: 500px; padding-top: 50px;">
           <p> </p>
-          <h3>經歷</h3>
+          <h2>經歷</h2>
+          <p> </p>
+          <!-- 摺疊 -->
+          <div class="col-sm-3">
+            <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo1">
+              P1
+            </button>
+            <div id="demo1" class="collapse in ">
+              14782369987456321
+            </div>
+          </div>
+          <p> </p>
+          <div class="col-sm-3">
+            <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo2">
+              P2
+            </button>
+            <div id="demo2" class="collapse in ">
+              14782369987456321
+            </div>
+          </div>
+          <p> </p>
+          <div class="col-sm-3">
+            <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo3">
+              P3
+            </button>
+            <div id="demo3" class="collapse in ">
+              14782369987456321
+            </div>
+          </div>
+
         </div>
 
       </div>
 
-        <div class="row">
-        <div class="col-sm" id="Scrollspy3" style="background-color: #76fac7; height: 300px; padding-top: 50px;">
+      <div class="row">
+        <div class="col-sm" id="Scrollspy3"
+          style="background-color: rgba(158, 249, 255, 0.3); height: 500px; padding-top: 50px;">
           <p> </p>
-          <h3>專長</h3>
+          <h2>專長</h2>
+          <p>  </p>
+          <!-- 提示 -->
+          <button type="button" class="btn btn-info btn-lg" data-html="true" 
+          data-toggle="tooltip" data-placement="right"
+            title=" C#  <br >
+                    HTML<br >
+                    CSS <br >
+                    C++ <br > ">
+            程式語言
+          </button>
+          <p >  </p>
+          <!-- data-html="true" 為了讓提示工具換行 -->
+          <button type="button" class="btn btn-info btn-lg" data-html="true" 
+          data-toggle="tooltip" data-placement="right"
+            title=" Microsoft SQL Server <br >
+                     ">
+            資料庫
+          </button>
         </div>
 
+      </div>
+
+      <div class="row">
+        <div class="col-sm" id="Scrollspy4"
+          style="background-color: rgba(0, 0, 0, 0.2); height: 500px; padding-top: 50px;">
+          <p> </p>
+          <h2>興趣</h2>
+          <p> </p>
         </div>
 
-        <div class="row">
-          <div class="col-sm" id="Scrollspy4" style="background-color: #f3ff44; height: 300px; padding-top: 50px;">
-            <p> </p>
-            <h3>興趣</h3>
-          </div>
-  
-          </div>
+      </div>
     </div>
 
 
 
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+            <a href="">
+            <i class="fab fa-line"></i>
+            </a>
+          
+            <a href="">
+              <i class="far fa-envelope"></i>
+              </a>
+    
+            
+          </div>
+        </div>
+      </div>
+    </div>
 
 
+  </main>
+  
 
-
-
-
-
+  <footer>
+    <div class="footer-copyright text-center py-2">© 2020 Copyright:
+      <a href="#"> 123</a>
+    </div>
+  </footer>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="script/bootstrap.js" ></script> 
-  </main>
-   </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+    <script src="script/bootstrap.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        $('#target').tooltip({
+          placement: 'top',
+          trigger: 'manual'
+        }).tooltip('show')
+      })
+    </script>
+  
+</body>
+
 </html>

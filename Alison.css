@@ -1,0 +1,13 @@
+body {
+    position: relative;
+  }
+
+p{
+    font-size: 20px;
+}  
+
+.tooltip{
+font-size: 25px;
+text-align: left;
+
+}
