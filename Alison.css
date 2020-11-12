@@ -9,9 +9,18 @@ li{
   font-size: 20px;
   color: rgb(243, 255, 79);
 }
+a{
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(255, 181, 152);
+}
 
 .tooltip{
 font-size: 25px;
 text-align: left;
+}
 
+footer{
+  background-color: rgb(41, 41, 41);
+  color: white;
 }
