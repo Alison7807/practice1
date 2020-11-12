@@ -5,6 +5,10 @@ body {
 p{
     font-size: 20px;
 }  
+li{
+  font-size: 20px;
+  color: rgb(243, 255, 79);
+}
 
 .tooltip{
 font-size: 25px;

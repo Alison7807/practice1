@@ -4,16 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="content/bootstrap.css">
   <link rel="stylesheet" href="content/bootstrap.min.css">
   <link rel="stylesheet" href="Alison.css">
-  
+
   <title>佩蓉的個人網頁</title>
-  
+
 </head>
 
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="60">  <!-- 導航 -->
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="60">
+  <!-- 導航 -->
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
@@ -34,13 +36,13 @@
             <a class="nav-link " href="#Scrollspy3">專長</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#Scrollspy4">興趣</a>
+            <a class="nav-link " href="#Scrollspy4">聯絡資訊</a>
           </li>
         </ul>
 
       </div>
     </nav>
-    
+
 
   </header>
 
@@ -48,92 +50,119 @@
 background-size: cover;
 background-repeat: no-repeat;
 width: 100%;">
-<div style="background-color: rgba( 0, 0, 0, 0); height: 70px;"> </div>
+    <div style="background-color: rgba( 0, 0, 0, 0); height: 65px;"> </div>
     <div class="container text-white">
       <div class="row">
 
         <div class="col-sm" id="Scrollspy1"
-          style="background-color: rgba(255, 175, 175, 0.3); height: 500px; padding-top: 50px;">
+          style="background-color: rgba(255, 175, 175, 0.3); height: 400px; padding-top: 50px;">
           <p> </p>
           <h2>關於我</h2>
+          <img src="file:///C:/Users/peggy/Downloads/black%20cat%20.png" alt="black cat"
+            class="img-responsive float-right" width="350px">
           <p> </p>
           <p> 姓名: 江佩蓉/Alison</p>
+          <p> 學歷: 佛光大學資訊應用學系</p>
+
+
+
         </div>
 
+
       </div>
+
+
 
       <div class="row">
 
         <div class="col-sm" id="Scrollspy2"
-          style="background-color: rgba(0, 0, 0, 0.2); height: 500px; padding-top: 50px;">
+          style="background-color: rgba(0, 0, 0, 0.2); height: 400px; padding-top: 50px;">
           <p> </p>
           <h2>經歷</h2>
           <p> </p>
           <!-- 摺疊 -->
-          <div class="col-sm-3">
-            <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo1">
-              P1
-            </button>
-            <div id="demo1" class="collapse in ">
-              14782369987456321
-            </div>
-          </div>
-          <p> </p>
-          <div class="col-sm-3">
-            <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo2">
-              P2
-            </button>
-            <div id="demo2" class="collapse in ">
-              14782369987456321
-            </div>
-          </div>
-          <p> </p>
-          <div class="col-sm-3">
-            <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo3">
-              P3
-            </button>
-            <div id="demo3" class="collapse in ">
-              14782369987456321
-            </div>
-          </div>
 
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo1">
+                  專題
+                </button>
+                <div id="demo1" class="collapse in ">
+                  14782369987456321
+                </div>
+              </div>
+
+              <p> </p>
+              <div class="col-sm-3">
+                <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo2">
+                  社團
+                </button>
+                <div id="demo2" class="collapse in ">
+                  14782369987456321
+                </div>
+              </div>
+              <p> </p>
+
+              <div class="col-sm-3">
+                <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo3">
+                  P3
+                </button>
+                <div id="demo3" class="collapse in ">
+                  14782369987456321
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
 
+
       <div class="row">
         <div class="col-sm" id="Scrollspy3"
-          style="background-color: rgba(158, 249, 255, 0.3); height: 500px; padding-top: 50px;">
+          style="background-color: rgba(158, 249, 255, 0.3); height: 400px; padding-top: 50px;">
           <p> </p>
           <h2>專長</h2>
-          <p>  </p>
-          <!-- 提示 -->
-          <button type="button" class="btn btn-info btn-lg" data-html="true" 
-          data-toggle="tooltip" data-placement="right"
-            title=" C#  <br >
+          <p> </p>
+          <div class="row">
+            <div class="container">
+              <div class="row">
+                <!-- 提示 -->
+                <button type="button" class="btn btn-info btn-lg col-sm-4" data-html="true" data-toggle="tooltip"
+                  data-placement="bottom" title=" C#  <br >
                     HTML<br >
                     CSS <br >
                     C++ <br > ">
-            程式語言
-          </button>
-          <p >  </p>
-          <!-- data-html="true" 為了讓提示工具換行 -->
-          <button type="button" class="btn btn-info btn-lg" data-html="true" 
-          data-toggle="tooltip" data-placement="right"
-            title=" Microsoft SQL Server <br >
-                     ">
-            資料庫
-          </button>
-        </div>
+                  程式語言
+                </button>
 
+                <!-- data-html="true" 為了讓提示工具換行 -->
+                <button type="button" class="btn btn-info btn-lg col-sm-4 " data-html="true" data-toggle="tooltip"
+                  data-placement="bottom" title=" Microsoft SQL Server <br >
+                     ">
+                  資料庫
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="row">
         <div class="col-sm" id="Scrollspy4"
-          style="background-color: rgba(0, 0, 0, 0.2); height: 500px; padding-top: 50px;">
+          style="background-color: rgba(0, 0, 0, 0.2); height: 400px; padding-top: 50px;">
           <p> </p>
-          <h2>興趣</h2>
-          <p> </p>
+          <h2>聯絡資訊</h2>
+          <ul>
+          <li>gmail: peggy989500@gmail.com</li>
+          <li>LINE: 2233owo</li>
+          <li>WeChat: owo484408</li>
+        </ul>
+          <img src="file:///C:/Users/peggy/Downloads/black%20cat%20lie%20on%20%20.png" alt="black cat"
+          class="img-responsive float-left " width="350px">
+
+
         </div>
 
       </div>
@@ -141,28 +170,24 @@ width: 100%;">
 
 
 
-    <div class="container">
+    <div class="container py-4">
 
       <div class="row">
-        <div class="col-md-12 py-5">
-          <div class="mb-5 flex-center">
-            <a href="">
-            <i class="fab fa-line"></i>
-            </a>
-          
-            <a href="">
-              <i class="far fa-envelope"></i>
-              </a>
-    
-            
-          </div>
+        <!-- AddToAny BEGIN -->
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style ">
+          <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+          <a class="a2a_button_wechat"></a>
+          <a class="a2a_button_google_gmail"></a>
+          <a class="a2a_button_line"></a>
         </div>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <!-- AddToAny END -->
       </div>
     </div>
 
 
   </main>
-  
+
 
   <footer>
     <div class="footer-copyright text-center py-2">© 2020 Copyright:
@@ -171,25 +196,25 @@ width: 100%;">
   </footer>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"></script>
-    <script src="script/bootstrap.js"></script>
-    <script>
-      $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-        $('#target').tooltip({
-          placement: 'top',
-          trigger: 'manual'
-        }).tooltip('show')
-      })
-    </script>
-  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="script/bootstrap.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+      $('#target').tooltip({
+        placement: 'top',
+        trigger: 'manual'
+      }).tooltip('show')
+    })
+  </script>
+
 </body>
 
 </html>
