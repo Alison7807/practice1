@@ -18,15 +18,15 @@
   <!-- 導航 -->
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
-      <a class="navbar-brand" href="#">個人網站</a>
+    <nav class="navbar navbar-expand-md  fixed-top bg-dark ">
+      <a class="navbar-brand" href="#" style="color: #ffb860;">個人網站</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#Scrollspy1">關於我 <span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
@@ -50,33 +50,31 @@
 background-size: cover;
 background-repeat: no-repeat;
 width: 100%;">
-    <div style="background-color: rgba( 0, 0, 0, 0); height: 65px;"> </div>
+    <div style="background-color: rgba( 0, 0, 0, 0); height: 60px;"> </div>
     <div class="container text-white">
       <div class="row">
 
         <div class="col-sm" id="Scrollspy1"
-          style="background-color: rgba(255, 175, 175, 0.3); height: 400px; padding-top: 50px;">
+          style="background-color: rgba(255, 175, 175, 0.3); height: 450px; padding-top: 50px;">
           <p> </p>
           <h2>關於我</h2>
-          <img src="file:///C:/Users/peggy/Downloads/black%20cat%20.png" alt="black cat"
-            class="img-responsive float-right" width="350px">
           <p> </p>
+          
           <p> 姓名: 江佩蓉/Alison</p>
+          <img src="file:///C:/Users/peggy/Downloads/black%20cat%20.png" alt="black cat"
+          class="img-responsive float-right" width="355px">
           <p> 學歷: 佛光大學資訊應用學系</p>
-
-
+          <p> 簡介: 對程式抱有一定好奇度的探索者</p>
 
         </div>
 
-
       </div>
-
 
 
       <div class="row">
 
         <div class="col-sm" id="Scrollspy2"
-          style="background-color: rgba(0, 0, 0, 0.2); height: 400px; padding-top: 50px;">
+          style="background-color: rgba(0, 0, 0, 0.2); height: 450px; padding-top: 50px;">
           <p> </p>
           <h2>經歷</h2>
           <p> </p>
@@ -88,9 +86,10 @@ width: 100%;">
                 <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo1">
                   學習過程
                 </button>
-                <div id="demo1" class="collapse in ">
+                <div id="demo1" class="collapse in inbtn">
                   <br>
-                  <a href="https://drive.google.com/drive/folders/1-vAbY56VM0sQkyAWRYyz7s3k6U5_U7XB?usp=sharing">在校作品</a>
+                  <a
+                    href="https://drive.google.com/drive/folders/1-vAbY56VM0sQkyAWRYyz7s3k6U5_U7XB?usp=sharing" target="_blank">在校作品</a>
                 </div>
               </div>
 
@@ -99,20 +98,46 @@ width: 100%;">
                 <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo2">
                   社團
                 </button>
-                <div id="demo2" class="collapse in ">
+                <div id="demo2" class="collapse in inbtn">
                   <br>
-                  14782369987456321
+                  佛光心善大使<br>
+
+                  <!-- <img src="file:///C:/Users/peggy/Downloads/line_6971134300362.jpg" alt="心善"
+                    class="img-rounded img-responsive text-center" width="250px"> -->
+
+                  <button class="btn" data-toggle="modal" data-target="#myModal">
+                    <img src="file:///C:/Users/peggy/Downloads/line_6971134300362.jpg" alt="心善"
+                      class="img-rounded img-responsive" width="220px">
+
+                  </button>
+                  <!-- （Modal） -->
+                  <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div>
+                        <img src="file:///C:/Users/peggy/Downloads/line_6971134300362.jpg" alt="心善"
+                          class="img-rounded img-responsive" height="600">
+                      </div>
+                    </div><!-- /.modal -->
+                  </div>
+
+
+
+
+
+
                 </div>
               </div>
               <p> </p>
 
               <div class="col-sm-4">
                 <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#demo3">
-                  P3
+                  活動與實習
                 </button>
-                <div id="demo3" class="collapse in ">
+                <div id="demo3" class="collapse in inbtn">
                   <br>
-                  14782369987456321
+                  電磁波宣導<br>
+                  資拓宏宇電聯部實習生
                 </div>
               </div>
             </div>
@@ -124,7 +149,7 @@ width: 100%;">
 
       <div class="row">
         <div class="col-sm" id="Scrollspy3"
-          style="background-color: rgba(158, 249, 255, 0.3); height: 400px; padding-top: 50px;">
+          style="background-color: rgba(158, 249, 255, 0.3); height: 450px; padding-top: 50px;">
           <p> </p>
           <h2>專長</h2>
           <p> </p>
@@ -163,16 +188,19 @@ width: 100%;">
 
       <div class="row">
         <div class="col-sm" id="Scrollspy4"
-          style="background-color: rgba(0, 0, 0, 0.2); height: 400px; padding-top: 50px;">
+          style="background-color: rgba(0, 0, 0, 0.2); height: 450px; padding-top: 50px;">
           <p> </p>
           <h2>聯絡資訊</h2>
+          <br>
           <ul>
-          <li>gmail: peggy989500@gmail.com</li>
-          <li>LINE: 2233owo</li>
-          <li>WeChat: owo484408</li>
-        </ul>
+            <li>gmail: peggy989500@gmail.com</li>
+            <li>LINE: 2233owo</li>
+            <li>WeChat: owo484408</li>
+          </ul>
+          <p> </p>
+          <br>
           <img src="file:///C:/Users/peggy/Downloads/black%20cat%20lie%20on%20%20.png" alt="black cat"
-          class="img-responsive float-left " width="350px">
+            class="img-responsive float-left " width="350px">
 
 
         </div>
@@ -218,6 +246,7 @@ width: 100%;">
     crossorigin="anonymous"></script>
   <script src="script/bootstrap.js"></script>
   <script>
+    // 提示
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
       $('#target').tooltip({
@@ -225,6 +254,8 @@ width: 100%;">
         trigger: 'manual'
       }).tooltip('show')
     })
+
+
   </script>
 
 </body>

@@ -4,20 +4,33 @@ body {
 
 p{
     font-size: 20px;
+    font-weight: 500;
 }  
 li{
   font-size: 20px;
+  font-weight: 500;
   color: rgb(243, 255, 79);
 }
 a{
   font-size: 20px;
-  font-weight: 300;
-  color: rgb(255, 181, 152);
+  font-weight: 600;
+  color: rgb(255, 196, 168);
 }
 
 .tooltip{
 font-size: 25px;
 text-align: left;
+}
+
+.inbtn{
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: rgb(159, 255, 255);
 }
 
 footer{
